@@ -1,0 +1,31 @@
+{
+  "name": "battery-present",
+  "version": "0.0.0",
+  "description": "Check if a specific battery is present",
+  "keywords": [
+    "battery"
+  ],
+  "repository": "KenanY/battery-present",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "dependencies": {
+    "binary-split": "^0.1.2",
+    "first-line": "^1.0.1",
+    "graceful-fs": "^3.0.4",
+    "lodash.isfunction": "^2.4.1"
+  },
+  "devDependencies": {
+    "tape": "^3.0.0"
+  }
+}
