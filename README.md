@@ -27,10 +27,11 @@ $ npm install battery-present
 var batteryPresent = require('battery-present');
 ```
 
-### `batteryPresent([battery], callback)`
+### `batteryPresent([battery='BAT0'], callback)`
 
-Given an optional _String_ `battery`, calls `callback(true)` if that `battery`
-exists in the current system. Otherwise calls `callback(false)`.
+Given an optional _String_ `battery` (defaults to `'BAT0'`), calls
+`callback(true)` if that `battery` exists in the current system. Otherwise calls
+`callback(false)`.
 
 
    [gemnasium]: https://gemnasium.com/KenanY/battery-present
