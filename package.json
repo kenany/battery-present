@@ -20,6 +20,7 @@
     "test": "tape test/index.js"
   },
   "dependencies": {
+    "battery-path": "^1.0.0",
     "binary-split": "^0.1.2",
     "first-line": "^1.0.1",
     "graceful-fs": "^3.0.4",
