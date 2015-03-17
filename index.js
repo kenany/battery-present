@@ -1,5 +1,4 @@
 var path = require('path');
-var split = require('binary-split');
 var fs = require('graceful-fs');
 var isFunction = require('lodash.isfunction');
 var firstLine = require('first-line');
