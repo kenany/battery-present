@@ -1,5 +1,4 @@
 var path = require('path');
-var fs = require('graceful-fs');
 var isFunction = require('lodash.isfunction');
 var firstLine = require('first-line');
 var batteryPath = require('battery-path');
