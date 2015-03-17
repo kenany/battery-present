@@ -24,7 +24,7 @@
     "binary-split": "^0.1.2",
     "first-line": "^1.0.1",
     "graceful-fs": "^3.0.4",
-    "lodash.isfunction": "^2.4.1"
+    "lodash.isfunction": "^3.0.1"
   },
   "devDependencies": {
     "tape": "^3.0.0"
