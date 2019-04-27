@@ -1,5 +1,7 @@
 # battery-present
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/KenanY/battery-present.svg)](https://greenkeeper.io/)
+
 [![Dependency Status][gemnasium-svg]][gemnasium]
 
 Check if a specific battery is present. Probably only works on Linux.
